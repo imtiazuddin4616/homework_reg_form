@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .form {
+      background-color: rgb(171, 241, 220);
+      width: 500px;
+      margin: auto;
+      border-radius: 5px;
+    }
+
+    .lable-input {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .address {
+      padding-left: 52px;
+
+    }
+
+
+    .address input {
+      width: 87%;
+      padding: 8px 2px;
+      margin-bottom: 2px;
+
+    }
+
+    .stateSelect {
+      width: 175px;
+    }
+
+    .purchase-date {
+      display: flex;
+      margin-left: 50px;
+
+    }
+
+    .purchase-date input {
+      padding: 8px 12px;
+    }
+
+    .button {
+      margin: 20px 50px 50px 170px;
+      padding: 10px 70px;
+      border-radius: 20px;
+      border-width: 0;
+      border-color: green;
+      background-color: green;
+    }
+
+    h1 {
+      color: rgb(56, 131, 67);
+      margin: 10px 10px 1px;
+      padding: 20px 5px 1px 45px;
+    }
+
+    p {
+      color: rgb(56, 131, 67);
+      margin-left: 12%;
+      padding: 0px 1px 0px 0px;
+    }
+
+    hr {
+      margin: 0 50px 20px;
+    }
+
+    .namee {
+      padding: 8px 12px;
+    }
+
+    .state {
+      padding: 8px 67px;
+    }
+
+    .street {
+      margin: 1% 1% 1%;
+
+      padding: 8px 12px 8px 20px;
+
+    }
+
+    h2 {
+      color: rgb(56, 131, 67);
+      margin: 10px 1px 10px 50px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <form class="form">
+    <h1>Product Registration Form </h1>
+    <p>Register your Product by filling in the product registration bellow</p>
+    <hr>
+    <div>
+      <div class="lable-input">
+        <div>
+          <lable for="name">Name</lable><br>
+          <input class="namee" type="text" id="name" placeholder="First"></input>
+        </div>
+        <div>
+          <lable for="name"></lable><br>
+          <input class="namee" type="text" placeholder="Last"></input>
+        </div>
+      </div>
+      <div class="lable-input">
+        <div>
+          <lable for="email">Email</lable><br>
+          <input class="namee" class="namee" type="email" id="name"></input>
+        </div>
+        <div>
+          <lable for="phone">phone</lable><br>
+          <input class="namee" type="text" placeholder="##### ######"></input>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="address">
+        <lable for="name">Address</lable><br>
+        <input type="text" id="name" placeholder="Street Address"></input>
+      </div>
+      <div class="lable-input">
+        <div>
+          <input class="namee" type="text" placeholder="City"></input>
+        </div>
+
+        <div>
+          <select class="state" name="stateselect" id="" class="stateSelect">
+            <option value="">State</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Feni">Feni</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <H2>Product Information</H2>
+    <div>
+      <div class="lable-input">
+        <div>
+          <lable for="Product-name">Product Name</lable><br>
+          <input class="namee" type="text" id="Product-name"></input>
+        </div>
+        <div>
+          <lable for="Product-Brmn">Product Brand & Model</lable><br>
+          <input class="namee" type="text"></input>
+        </div>
+      </div>
+      <div class="lable-input">
+        <div>
+          <lable for="Product-model">Product Model ID</lable><br>
+          <input class="namee" type="text" id="Product-Model"></input>
+        </div>
+        <div>
+          <lable for="Product-fbyr">Product Fabrication year</lable><br>
+          <input class="namee" type="text"></input>
+        </div>
+      </div>
+      <div class="purchase-date">
+        <div>
+          <lable for="Purchase-Date">Purchase Date</lable><br>
+          <input type="date" id="Purchase-date"></input>
+        </div>
+      </div>
+    </div>
+    <button class="button" type="submit">Register</button>
+  </form>
+</body>
+
+</html>
